@@ -1,0 +1,46 @@
+.head{
+    background-image: url('../../assets/Logo.png');
+    width: 1456px;
+    background-repeat: no-repeat;
+    height: 193px;
+    background-size: contain;
+    background-position: center;
+    margin-top: 100px
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body{
+    background-image: url('../../assets/Image.png');
+    width: 1456px;
+    background-repeat: no-repeat;
+    height: 741px;
+    border-radius: 30px;
+    background-size: cover;
+    margin-top: 40px
+}
+@media (max-width: 1279px) {
+    .head{
+        width: 960px;
+        height: 127.5px;
+    }
+    .body{
+        width: 960px;
+        background-image: url('../../assets/MobileHero.png');
+        height: 855px;
+    }
+}
+@media (max-width: 799px) {
+    .head{
+        width: 342px;
+        height: 46px;
+        margin-top: 40px;
+    }
+    .body{
+        width: 342px;
+        background-image: url('../../assets/MobileImage.png');
+        height: 750px;
+    }
+}

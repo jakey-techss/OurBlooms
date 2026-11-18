@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanuman:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.caption {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #575757;
+    font-style: normal;
+}
+
+.heading2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: -2.5%;
+    text-align: center;
+    width: 1180px;
+    margin-top: 12px;
+}
+
+@media (max-width: 799px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 212px;
+        padding-bottom: 212px;
+    }
+    .caption {
+        font-size: 16px;
+    }
+    .heading2 {
+        font-size: 31px;
+        width: auto;
+    }
+}

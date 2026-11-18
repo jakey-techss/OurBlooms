@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanuman:wght@100..900&family=Outfit:wght@100..900&display=swap');
+.nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #595959;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 92%;
+    letter-spacing: -3%;
+    color: black;
+    text-decoration: none
+}
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.columnNav{
+    display: none;
+    flex-direction: column;
+    width: 96%;
+    gap:8px;
+}
+.navLink{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2%;
+    line-height: 140%;
+}
+.linkHolder{
+    display: flex;
+    gap: 40px;
+}
+.toggleHolder{
+    display: none;
+}
+
+@media (max-width: 799px) {
+    .linkHolder{
+        display: none;
+    }
+    .toggleHolder{
+        display: flex;
+    }
+    .navLink{
+        width: 100%;
+        padding-top: 28px;
+        padding-bottom: 4px;
+        border-bottom: solid 1px #595959;
+    }
+    .columnNav{
+        display: flex;
+        position: relative;
+    }
+  }
