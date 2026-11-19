@@ -32,7 +32,7 @@
         height: 855px;
     }
 }
-@media (max-width: 799px) {
+@media (max-width: 999px) {
     .head{
         width: 342px;
         height: 46px;
