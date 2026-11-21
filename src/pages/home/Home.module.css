@@ -4,6 +4,7 @@
     padding-right: 30px;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
