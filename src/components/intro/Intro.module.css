@@ -29,11 +29,11 @@
     line-height: 110%;
     letter-spacing: -2.5%;
     text-align: center;
-    width: 1180px;
+    width: 90%;
     margin-top: 12px;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 799px) {
     .section {
         display: flex;
         flex-direction: column;
@@ -47,6 +47,6 @@
     }
     .heading2 {
         font-size: 31px;
-        width: auto;
+        
     }
 }

@@ -5,7 +5,7 @@
     height: 193px;
     background-size: contain;
     background-position: center;
-    margin-top: 100px
+    margin-top: 120px
 }
 .container{
     display: flex;
@@ -33,6 +33,17 @@
     }
 }
 @media (max-width: 999px) {
+    .head{
+        width: 768px;
+        height: 102px;
+    }
+    .body{
+        width: 768px;
+        background-image: url('../../assets/MobileHero.png');
+        height: 684px;
+    }
+}
+@media (max-width: 799px) {
     .head{
         width: 342px;
         height: 46px;

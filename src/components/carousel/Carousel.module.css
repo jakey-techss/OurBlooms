@@ -42,9 +42,10 @@
     display: flex;
     gap: 40px;
     overflow-x: auto;
+    padding-bottom: 120px;
 }
 
-.container>div {
+.container > div {
     border-radius: 30px;
 }
 
