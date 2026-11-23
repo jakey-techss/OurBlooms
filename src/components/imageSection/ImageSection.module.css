@@ -1,36 +1,41 @@
-
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.body{
-    background-image: url('../../assets/Image.png');
+
+.body {
+
     width: 1456px;
+    border-radius: 30px;
+    min-width: 90vw;
     background-repeat: no-repeat;
     height: 741px;
     border-radius: 30px;
     background-size: cover;
     margin-top: 40px
 }
+
 @media (max-width: 1279px) {
-    .body{
-        width: 960px;
-        background-image: url('../../assets/MobileHero.png');
+    .body {
+        width: 90%;
+
         height: 855px;
     }
 }
+
 @media (max-width: 999px) {
-    .body{
-        width: 768px;
-        background-image: url('../../assets/MobileHero.png');
+    .body {
+        width: 90%;
+
         height: 684px;
     }
 }
+
 @media (max-width: 799px) {
-    .body{
-        width: 342px;
-        background-image: url('../../assets/MobileImage.png');
+    .body {
+        width: 90%;
+
         height: 750px;
     }
 }

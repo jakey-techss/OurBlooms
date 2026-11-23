@@ -1,0 +1,13 @@
+.heading1{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 110%;
+    letter-spacing: -2.5%;
+    text-align: start;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

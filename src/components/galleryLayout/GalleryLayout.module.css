@@ -1,0 +1,28 @@
+.caption {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #575757;
+    font-style: normal;
+    width: 350px;
+    margin-right: 100px;
+    text-align: start;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 200px;
+    gap: 12px;
+}
+
+@media (max-width: 1280px) {
+    .container {
+
+        flex-wrap: wrap;
+
+    }
+}
