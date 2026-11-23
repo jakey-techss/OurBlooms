@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router'
 import styles from './NavBar.module.css'
 import Toggle from './toggle/Toggle'
 import { ToggleContext } from './toggle/ToggleContext'
+import Cart from '../cart/Cart'
+import CartProvider from '../cartContext/cartContext'
 
 const NavBar = () => {
     const { opened } = useContext(ToggleContext)
@@ -16,6 +18,10 @@ const NavBar = () => {
                     <NavLink to='/gallery' className={styles.navLink}>GALLERY</NavLink>
                     <NavLink to='/about' className={styles.navLink}>ABOUT</NavLink>
                     <NavLink to='/contact' className={styles.navLink}>CONTACT</NavLink>
+                    <CartProvider>
+                        <Cart />
+                    </CartProvider>
+
                 </div>
                 <div className={styles.toggleHolder}>
                     <Toggle />

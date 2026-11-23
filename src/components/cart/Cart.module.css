@@ -1,0 +1,30 @@
+.navLink{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    letter-spacing: 2%;
+    line-height: 140%;
+}
+.cartCount{
+    background-color: #FFC800;
+    text-align: center;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    padding: 2px 6px;
+    position: relative;
+    right: -108px;
+    top: -16px;
+    font-size: 12px;
+    border-radius: 22px;
+    margin-left: 6px;
+}
