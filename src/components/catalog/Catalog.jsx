@@ -10,7 +10,7 @@ import SB from '../../assets/07.png'
 import SW from '../../assets/08.png'
 import Product from '../product/Product'
 import styles from './Catalog.module.css'
-import CartProvider from '../cartContext/cartContext'
+
 
 let data = [
   { title: "Dawn Bloom", price: 55, src: DB },
@@ -26,11 +26,9 @@ let data = [
 const Catalog = () => {
   return (
     <div className={styles.grid}>
-      <CartProvider>
         {data.map((item, index) => {
           return <Product title={item.title.toUpperCase()} cost={item.price} img={item.src} key={index} />
         })}
-      </CartProvider>
     </div>
   )
 }

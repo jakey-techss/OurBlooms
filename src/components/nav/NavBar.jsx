@@ -4,7 +4,7 @@ import styles from './NavBar.module.css'
 import Toggle from './toggle/Toggle'
 import { ToggleContext } from './toggle/ToggleContext'
 import Cart from '../cart/Cart'
-import CartProvider from '../cartContext/cartContext'
+import CartProvider from '../cartContext/CartContext.jsx'
 
 const NavBar = () => {
     const { opened } = useContext(ToggleContext)
@@ -18,9 +18,9 @@ const NavBar = () => {
                     <NavLink to='/gallery' className={styles.navLink}>GALLERY</NavLink>
                     <NavLink to='/about' className={styles.navLink}>ABOUT</NavLink>
                     <NavLink to='/contact' className={styles.navLink}>CONTACT</NavLink>
-                    <CartProvider>
-                        <Cart />
-                    </CartProvider>
+
+                    <Cart />
+
 
                 </div>
                 <div className={styles.toggleHolder}>

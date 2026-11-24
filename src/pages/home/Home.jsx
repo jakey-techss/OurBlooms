@@ -21,7 +21,7 @@ const Home = () => {
         <WhatWeDo/>
         <ImageSection src={sectionOne} customStyling={{marginTop:50+'px'}}/>
         <Intro title={"WORK WITH US"} text={"Discover how we can add a touch of natural beauty to your next event."}/>
-        <ImageSection src={footer} customStyling={{marginTop:80+'px;'}}/>
+        <ImageSection src={footer} customStyling={{marginTop:80+'px'}}/>
     </div>
   )
 }
