@@ -2,7 +2,7 @@ import React from 'react'
 import FI from '../../assets/serv01.png'
 import NPA from '../../assets/NPA.png'
 import CFC from '../../assets/CFC.png'
-import ServiceItem from '../serviceItem/serviceItem'
+import ServiceItem from '../serviceItem/ServiceItem'
 let data = [
     {
         title: "FLORAL INSTALLATIONS",

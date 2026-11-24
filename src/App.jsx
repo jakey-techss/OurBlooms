@@ -3,6 +3,7 @@ import Home from "./pages/home/Home"
 import Gallery from "./pages/gallery/Gallery"
 import About from "./pages/about/About"
 import CartProvider from "./components/cartContext/CartContext"
+import { supabase } from './supabaseClient'
 
 function App() {
 
